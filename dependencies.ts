@@ -54,5 +54,4 @@ export function defineDep<T>(prefix: string) {
   return _defineDep<T, T>(prefix);
 }
 
-const di = new DI();
-export default di;
+export const di = new DI();
